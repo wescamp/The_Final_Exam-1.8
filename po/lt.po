@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wescamp-i 18n\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2010-04-19 18:12+0200\n"
+"PO-Revision-Date: 2010-04-19 18:12+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:9
+msgid "The Final Exam"
+msgstr ""
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:10
+msgid "TFE"
+msgstr ""
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:21
+msgid ""
+"A young mage Erika must find a magic book to become a true mage.\n"
+"\n"
+"(2 scenarios, for beginners)\n"
+"\n"
+"This campaign is aimed to be:\n"
+"- easy to play\n"
+"- easy to modify\n"
+"- easy to learn basics of WML \n"
+"- easy to translate"
+msgstr ""
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:24
+msgid "female^Apprentice"
+msgstr ""
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:24
+msgid "(Very Easy)"
+msgstr ""
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:26
+msgid "female^Mage"
+msgstr ""
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:26
+msgid "(Easy)"
+msgstr ""
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:28
+msgid "female^Archmage"
+msgstr ""
+
+#. [campaign]: id=The Final Exam
+#: The_Final_Exam/_main.cfg:28
+msgid "(Medium)"
+msgstr ""
+
+#. [about]
+#: The_Final_Exam/_main.cfg:36
+msgid "Campaign Design"
+msgstr ""
+
+#. [about]
+#: The_Final_Exam/_main.cfg:42
+msgid "Text corrections"
+msgstr ""
+
+#. [entry]
+#: The_Final_Exam/_main.cfg:44
+msgid "Anezka Bubenickova"
+msgstr ""
+
+#. [about]
+#: The_Final_Exam/_main.cfg:48
+msgid "Also many thanks to:"
+msgstr ""
+
+#. [entry]
+#: The_Final_Exam/_main.cfg:50
+msgid ""
+"Viliam Bur, Db0, Elvish Pillager, Fendrin and zookeeper (yes, not "
+"capitalized)"
+msgstr ""
+
+#. [about]
+#: The_Final_Exam/_main.cfg:54
+msgid "Updated for Wesnoth 1.8 by:"
+msgstr ""
+
+#. [entry]
+#: The_Final_Exam/_main.cfg:56
+msgid "Elvish_Hunter"
+msgstr ""
+
+#. [scenario]: id=1_Village
+#: The_Final_Exam/scenarios/1_Village.cfg:11
+msgid "1-Village"
+msgstr ""
+
+#. [part]
+#: The_Final_Exam/scenarios/1_Village.cfg:31
+msgid ""
+"Young mage Erika has just finished her studies. One day, She will be a "
+"powerful mage."
+msgstr ""
+
+#. [part]
+#: The_Final_Exam/scenarios/1_Village.cfg:34
+msgid ""
+"But she must complete her final exam - find a magic book somewhere in the "
+"cave in the northeast."
+msgstr ""
+
+#. [side]: type=Mage, id=Erika
+#: The_Final_Exam/scenarios/2_Cave.cfg:39
+#: The_Final_Exam/scenarios/1_Village.cfg:48
+msgid "female^Erika"
+msgstr ""
+
+#. [side]: type=Orcish Warrior, id=Nerek
+#: The_Final_Exam/scenarios/1_Village.cfg:90
+msgid "Nerek"
+msgstr ""
+
+#. [objective]: condition=win
+#: The_Final_Exam/scenarios/1_Village.cfg:103
+msgid "Defeat Nerek"
+msgstr ""
+
+#. [objective]: condition=lose
+#: The_Final_Exam/scenarios/2_Cave.cfg:91
+#: The_Final_Exam/scenarios/1_Village.cfg:107
+msgid "Death of Erika"
+msgstr ""
+
+#. [objective]: condition=lose
+#: The_Final_Exam/scenarios/2_Cave.cfg:95
+#: The_Final_Exam/scenarios/1_Village.cfg:111
+msgid "Turns run out"
+msgstr ""
+
+#. [unit]: type=Bowman, id=Johnny
+#: The_Final_Exam/scenarios/1_Village.cfg:141
+msgid "Johnny"
+msgstr ""
+
+#. [message]: speaker=Erika
+#: The_Final_Exam/scenarios/1_Village.cfg:154
+msgid ""
+"To make my final exam, I have to find a book. It is somewhere in that cave."
+msgstr ""
+
+#. [message]: speaker=Nerek
+#: The_Final_Exam/scenarios/1_Village.cfg:159
+msgid ""
+"Hey boys, here comes some silly girl with badly trained troops. Smash them!"
+msgstr ""
+
+#. [message]: speaker=Johnny
+#: The_Final_Exam/scenarios/1_Village.cfg:164
+msgid "You will be smashed, orc."
+msgstr ""
+
+#. [message]: speaker=Erika
+#: The_Final_Exam/scenarios/1_Village.cfg:175
+msgid "Way into caves is clear now."
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Final_Exam/scenarios/2_Cave.cfg:249
+#: The_Final_Exam/scenarios/1_Village.cfg:188
+msgid "Oh, no! I hope this blood is not mine!"
+msgstr ""
+
+#. [scenario]: id=2_Cave
+#: The_Final_Exam/scenarios/2_Cave.cfg:5
+msgid "2-Cave"
+msgstr ""
+
+#. [part]
+#: The_Final_Exam/scenarios/2_Cave.cfg:26
+msgid ""
+"Orcs in front of the entrance has been killed. Erika must find the book now."
+msgstr ""
+
+#. [side]: type=Troll, id=Nsug
+#: The_Final_Exam/scenarios/2_Cave.cfg:67
+msgid "Nsug"
+msgstr ""
+
+#. [objective]: condition=win
+#: The_Final_Exam/scenarios/2_Cave.cfg:87
+msgid "Find the book"
+msgstr ""
+
+#. [message]: speaker=Erika
+#: The_Final_Exam/scenarios/2_Cave.cfg:113
+msgid ""
+"I don't like this place. It's too silent and too dark. But I'm sure that I "
+"will find the book. Careful, warriors, I smell trolls!"
+msgstr ""
+
+#. [message]: speaker=Erika
+#: The_Final_Exam/scenarios/2_Cave.cfg:117
+msgid ""
+"Two heavy infantrymen are close. Maybe for 40 gold they will help me in my "
+"search."
+msgstr ""
+
+#. [option]: speaker=Erika
+#: The_Final_Exam/scenarios/2_Cave.cfg:119
+msgid "Hey you! Looking for some gold?"
+msgstr ""
+
+#. [option]: speaker=Erika
+#: The_Final_Exam/scenarios/2_Cave.cfg:142
+msgid "No no no, bad idea."
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Final_Exam/scenarios/2_Cave.cfg:163
+msgid "I can't take this book. Only Erika can take it."
+msgstr ""
+
+#. [message]: speaker=Erika
+#: The_Final_Exam/scenarios/2_Cave.cfg:192
+msgid "Great, I made it! I will be ranked as a true mage!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Final_Exam/scenarios/2_Cave.cfg:217
+msgid "We found 25 gold coins."
+msgstr ""
