@@ -1,29 +1,31 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wescamp-i 18n\n"
+"Project-Id-Version: The_Final_Exem-0.8\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-04-24 10:26+0200\n"
-"PO-Revision-Date: 2010-04-19 18:12+0200\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2010-07-08 23:35 HO:MI+0400\n"
+"Last-Translator: green dog <fiziologus@gmail.com>\n"
 "Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:9
 msgid "The Final Exam"
-msgstr ""
+msgstr "Последний Экзамен"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:10
 msgid "TFE"
-msgstr ""
+msgstr "ПЭ"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:21
+#, fuzzy
 msgid ""
 "A young mage Erika must find a magic book to become a true mage. But will it "
 "really be her final exam?\n"
@@ -36,56 +38,66 @@ msgid ""
 "- easy to learn basics of WML \n"
 "- easy to translate"
 msgstr ""
+"Молодой маг Эрика должна найти магическую книгу, чтобы стать настоящим "
+"магом. Но будет ли этот экзамен последним?\n"
+"\n"
+"(3 сценария, для новичков и изучающих WML)\n"
+"\n"
+"Цель этой кампании быть:\n"
+"- лёгкой для игры\n"
+"- лёгкой для изменения\n"
+"- лёгкой для освоения WML\n"
+"- лёгкой для перевода"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:24
 msgid "female^Apprentice"
-msgstr ""
+msgstr "Ученик"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:24
 msgid "(Very Easy)"
-msgstr ""
+msgstr "(очень легко)"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:26
 msgid "female^Mage"
-msgstr ""
+msgstr "Маг"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:26
 msgid "(Easy)"
-msgstr ""
+msgstr "(легко)"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:28
 msgid "female^Archmage"
-msgstr ""
+msgstr "Архимаг"
 
 #. [campaign]: id=The Final Exam
 #: The_Final_Exam/_main.cfg:28
 msgid "(Medium)"
-msgstr ""
+msgstr "(посложнее)"
 
 #. [about]
 #: The_Final_Exam/_main.cfg:36
 msgid "Campaign Design"
-msgstr ""
+msgstr "Дизайн кампании"
 
 #. [about]
 #: The_Final_Exam/_main.cfg:42
 msgid "Text corrections"
-msgstr ""
+msgstr "Правка текстов"
 
 #. [entry]
 #: The_Final_Exam/_main.cfg:44
 msgid "Anezka Bubenickova"
-msgstr ""
+msgstr "Anezka Bubenickova"
 
 #. [about]
 #: The_Final_Exam/_main.cfg:48
 msgid "Also many thanks to:"
-msgstr ""
+msgstr "Также выражаю благодарность:"
 
 #. [entry]
 #: The_Final_Exam/_main.cfg:50
@@ -93,16 +105,18 @@ msgid ""
 "Viliam Bur, Db0, Elvish Pillager, Fendrin and zookeeper (yes, not "
 "capitalized)"
 msgstr ""
+"Viliam Bur, Db0, Elvish Pillager, Fendrin and zookeeper (yes, not "
+"capitalized)"
 
 #. [about]
 #: The_Final_Exam/_main.cfg:54
 msgid "Corrections for Wesnoth 1.8"
-msgstr ""
+msgstr "Коррекция для Wesnoth 1.8"
 
 #. [scenario]: id=1_Village
 #: The_Final_Exam/scenarios/1_Village.cfg:11
 msgid "1-Village"
-msgstr ""
+msgstr "Деревня"
 
 #. [part]
 #: The_Final_Exam/scenarios/1_Village.cfg:31
@@ -110,6 +124,8 @@ msgid ""
 "Young mage Erika has just finished her studies. One day, She will be a "
 "powerful mage."
 msgstr ""
+"Молодой маг Эрика только что закончила своё обучение. Скоро она станет "
+"могущественным магом."
 
 #. [part]
 #: The_Final_Exam/scenarios/1_Village.cfg:34
@@ -117,84 +133,90 @@ msgid ""
 "But she must complete her final exam - find a magic book somewhere in the "
 "cave in the northeast."
 msgstr ""
+"Однако она должна пройти последний экзамен - найти магическую книгу где-то в "
+"пещере на севере-востоке."
 
 #. [side]: type=Mage, id=Erika
 #: The_Final_Exam/scenarios/2_Cave.cfg:40
 #: The_Final_Exam/scenarios/1_Village.cfg:48
 #: The_Final_Exam/scenarios/3_Plague.cfg:40
 msgid "female^Erika"
-msgstr ""
+msgstr "Эрика"
 
 #. [side]: type=Orcish Warrior, id=Nerek
 #: The_Final_Exam/scenarios/1_Village.cfg:90
 msgid "Nerek"
-msgstr ""
+msgstr "Нэрек"
 
 #. [objective]: condition=win
 #: The_Final_Exam/scenarios/1_Village.cfg:103
 msgid "Defeat Nerek"
-msgstr ""
+msgstr "Победить Нэрека"
 
 #. [objective]: condition=lose
 #: The_Final_Exam/scenarios/2_Cave.cfg:92
 #: The_Final_Exam/scenarios/1_Village.cfg:107
 msgid "Death of Erika"
-msgstr ""
+msgstr "Смерть Эрики"
 
 #. [unit]: type=Bowman, id=Johnny
 #: The_Final_Exam/scenarios/1_Village.cfg:138
 msgid "Johnny"
-msgstr ""
+msgstr "Джонни"
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/1_Village.cfg:155
 msgid ""
 "To make my final exam, I have to find a book. It is somewhere in that cave."
 msgstr ""
+"Чтобы сдать последний экзамен, я должна найти книгу. Она где-то в той пещере "
+"на северо-востоке."
 
 #. [message]: speaker=Nerek
 #: The_Final_Exam/scenarios/1_Village.cfg:160
 msgid ""
 "Hey boys, here comes some silly girl with badly trained troops. Smash them!"
 msgstr ""
+"Эй, ребята, к нам пришла какая-то глупая девчонка с плохо обученным войском. "
+"Разгромим их!"
 
 #. [message]: speaker=Johnny
 #: The_Final_Exam/scenarios/1_Village.cfg:165
 msgid "You will be smashed, orc."
-msgstr ""
+msgstr "Это ты будешь разгромлен, орк."
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/1_Village.cfg:176
 msgid "Way into caves is clear now."
-msgstr ""
+msgstr "Теперь вход в пещеры свободен."
 
 #. [message]: speaker=unit
 #: The_Final_Exam/scenarios/2_Cave.cfg:246
 #: The_Final_Exam/scenarios/1_Village.cfg:189
 #: The_Final_Exam/scenarios/3_Plague.cfg:328
 msgid "Oh, no! I hope this blood is not mine!"
-msgstr ""
+msgstr "О нет! Надеюсь, эта кровь не моя!"
 
 #. [scenario]: id=2_Cave
 #: The_Final_Exam/scenarios/2_Cave.cfg:5
 msgid "2-Cave"
-msgstr ""
+msgstr "Пещера"
 
 #. [part]
 #: The_Final_Exam/scenarios/2_Cave.cfg:27
 msgid ""
 "Orcs in front of the entrance has been killed. Erika must find the book now."
-msgstr ""
+msgstr "Орки у входа были повержены. Теперь Эрика должна найти книгу."
 
 #. [side]: type=Troll, id=Nsug
 #: The_Final_Exam/scenarios/2_Cave.cfg:68
 msgid "troll_name^Nsug"
-msgstr ""
+msgstr "Нсуг"
 
 #. [objective]: condition=win
 #: The_Final_Exam/scenarios/2_Cave.cfg:88
 msgid "Find the book"
-msgstr ""
+msgstr "Найти книгу"
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/2_Cave.cfg:110
@@ -202,6 +224,8 @@ msgid ""
 "I don't like this place. It's too silent and too dark. But I'm sure that I "
 "will find the book. Careful, warriors, I smell trolls!"
 msgstr ""
+"Я никогда не была в подобном месте. Здесь слишком тихо и темно. Но я "
+"уверена, что найду книгу. Осторожно, войны, я чувствую запах тролей!"
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/2_Cave.cfg:114
@@ -209,36 +233,38 @@ msgid ""
 "Two heavy infantrymen are close. Maybe for 40 gold they will help me in my "
 "search."
 msgstr ""
+"Вот подошли два тяжёлых пехотинца. Может, за 40 золотых они помогут мне в "
+"поисках."
 
 #. [option]: speaker=Erika
 #: The_Final_Exam/scenarios/2_Cave.cfg:116
 msgid "Hey you! Looking for some gold?"
-msgstr ""
+msgstr "Эй, вы! Хотите заработать?"
 
 #. [option]: speaker=Erika
 #: The_Final_Exam/scenarios/2_Cave.cfg:139
 msgid "No no no, bad idea."
-msgstr ""
+msgstr "Нет нет нет, плохая идея."
 
 #. [message]: speaker=unit
 #: The_Final_Exam/scenarios/2_Cave.cfg:160
 msgid "I can't take this book. Only Erika can take it."
-msgstr ""
+msgstr "Я не могу взять эту книгу. Только Эрика может взять её."
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/2_Cave.cfg:189
 msgid "Great, I made it! I will be ranked as a true mage!"
-msgstr ""
+msgstr "Превосходно, я сделала это! Теперь я настоящий маг!"
 
 #. [message]: speaker=unit
 #: The_Final_Exam/scenarios/2_Cave.cfg:214
 msgid "We found 25 gold coins."
-msgstr ""
+msgstr "Мы нашли 25 золотых монет."
 
 #. [scenario]: id=3_Plague
 #: The_Final_Exam/scenarios/3_Plague.cfg:5
 msgid "3-Plague"
-msgstr ""
+msgstr "Бедствие"
 
 #. [part]
 #: The_Final_Exam/scenarios/3_Plague.cfg:27
@@ -247,41 +273,45 @@ msgid ""
 "valuable asset of a kingdom. Master of the mages, Jessin, is almost killed "
 "by a mysterious plague. Can Erika cure him?"
 msgstr ""
+"С древней книгой Эрика достигла звания мага и может стать ценной для "
+"королевства. Главный маг, Джессин почти убит загадочной болезнью. Сможет ли "
+"Эрика вылечить его?"
 
 #. [side]: type=Elvish Druid, id=Natthanelle
 #: The_Final_Exam/scenarios/3_Plague.cfg:71
 msgid "Natthanelle"
-msgstr ""
+msgstr "Наттанель"
 
 #. [objective]: condition=win
 #: The_Final_Exam/scenarios/3_Plague.cfg:127
 msgid "Cure master Jessin from poison"
-msgstr ""
+msgstr "Вылечите мастера Джессина от яда"
 
 #. [objective]: condition=lose
 #: The_Final_Exam/scenarios/3_Plague.cfg:131
+#, fuzzy
 msgid "Death of Erika or Jessin"
-msgstr ""
+msgstr "Смерть Эрики или Джессина"
 
 #. [objective]: condition=lose
 #: The_Final_Exam/scenarios/3_Plague.cfg:135
 msgid "Turns run out"
-msgstr ""
+msgstr "Закончились ходы"
 
 #. [unit]: type=Red Mage, id=Jessin
 #: The_Final_Exam/scenarios/3_Plague.cfg:162
 msgid "male_mage_name^Jessin"
-msgstr ""
+msgstr "Джессин"
 
 #. [unit]: type=Troll, id=Vruzg
 #: The_Final_Exam/scenarios/3_Plague.cfg:181
 msgid "troll_name^Vruzg"
-msgstr ""
+msgstr "Врузг"
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/3_Plague.cfg:194
 msgid "Master! Master!"
-msgstr ""
+msgstr "Мастер! Мастер!"
 
 #. [message]: speaker=Jessin
 #: The_Final_Exam/scenarios/3_Plague.cfg:198
@@ -289,11 +319,13 @@ msgid ""
 "Yes, I am here, but I do not feel very well. I am poisoned by an orcish "
 "throwing knife and I do not have antidote for this poison."
 msgstr ""
+"Да, я здесь, однако чувствую себя не очень хорошо. Меня отравил орочий "
+"убийца, и я не могу сделать противоядие."
 
 #. [option]: speaker=Jessin
 #: The_Final_Exam/scenarios/3_Plague.cfg:200
 msgid "How can I cure you?"
-msgstr ""
+msgstr "Как я могу вылечить вас"
 
 #. [message]: speaker=Jessin
 #: The_Final_Exam/scenarios/3_Plague.cfg:204
@@ -303,11 +335,15 @@ msgid ""
 "region is far on the southwest. And maybe you will find a different way... "
 "remember, I am very weak now, but still I am able to burn some orcs..."
 msgstr ""
+"Только белый маг сможет меня вылечить. Или мощный эльфийский друид. Может "
+"быть, ты сможешь найти деревню, но, как я помню, в этих местах есть только "
+"одна, далеко на юго-западе. И, может быть, ты найдёшь другой способ... "
+"помни, я сейчас очень слаб, но всё ещё способен спалить несколько орков..."
 
 #. [option]: speaker=Jessin
 #: The_Final_Exam/scenarios/3_Plague.cfg:209
 msgid "I will cure you, already on it!"
-msgstr ""
+msgstr "Я вылечу вас, уже бегу!"
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/3_Plague.cfg:227
@@ -315,38 +351,43 @@ msgid ""
 "This tree.. wose... is coming alive! Do not attack this wose, he can help us "
 "crush the orcs."
 msgstr ""
+"Это дерево.. леший... оно живое! Не нападайте на него, он может помочь нам "
+"разгромить орков."
 
 #. [unit]: type=Elder Wose, id=Tambaddum
 #: The_Final_Exam/scenarios/3_Plague.cfg:232
 msgid "wose_name^Tambaddum"
-msgstr ""
+msgstr "Тамбаддум"
 
 #. [message]: speaker=narrator
 #: The_Final_Exam/scenarios/3_Plague.cfg:243
 msgid "From now, you can recruit woses in your castle."
-msgstr ""
+msgstr "Теперь Вы можете нанимать леших в своём замке."
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/3_Plague.cfg:273
 msgid "I made it, the master of the mages is cured!"
-msgstr ""
+msgstr "Я сделала это, старший маг излечен!"
 
 #. [label]
 #: The_Final_Exam/scenarios/3_Plague.cfg:288
 msgid "Bridge under construction"
-msgstr ""
+msgstr "Строящийся мост"
 
 #. [message]: speaker=Erika
 #: The_Final_Exam/scenarios/3_Plague.cfg:303
 msgid "Great, our bridge is now stable enough for us to cross it."
-msgstr ""
+msgstr "Великолепно, мост достаточно прочный, чтобы перейти."
 
 #. [message]: id=Jessim
 #: The_Final_Exam/scenarios/3_Plague.cfg:314
 msgid "This poison is stronger than me. Farewell, Erika..."
-msgstr ""
+msgstr "Этот яд сильнее меня. Прощай, Эрика..."
 
 #. [message]: speaker=unit
 #: The_Final_Exam/scenarios/3_Plague.cfg:342
 msgid "My death is very close."
-msgstr ""
+msgstr "Моя смерть очень близко."
+
+#~ msgid "Oh, no! You defeated me!"
+#~ msgstr "О нет! Ты меня убила!"
